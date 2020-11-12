@@ -356,7 +356,7 @@ public class EmployeeFactoryImpl implements
 
 In Listing 3-7 I changed the name of our example function from testableHtml to SetupTeardownIncluder.render. This is a far better name because it better describes what the function does. I also gave each of the private methods an equally descriptive name such as isTestable or includeSetupAndTeardownPages. It is hard to overestimate the value of good names. Remember Ward’s principle: “You know you are working on clean code when each routine turns out to be pretty much what you expected.” Half the battle to achieving that principle is choosing good names for small functions that do one thing. The smaller and more focused a function is, the easier it is to choose a descriptive name.
 
-> 在代码清单 3-7 中，我把示例函数的名称从 testableHtml 改为 SetupTeardownIncluder.render。这个名称好得多，因为它较好地描述了函数做的事。我也给每个私有方法取个同样具有描述性的名称，如 isTestable 或 includeSetupAndTeardownPages。好名称的价值怎么好评都不为过。记住沃德原则：“如果每个例程都让你感到深合己意，那就是整洁代码。”要遵循这一原则，泰半工作都在于为只做一件事的小函数取个好名字。函数越短小、功能越集中，就越便于取个好名字。
+> 在代码清单 3-7 中，我把示例函数的名称从 testableHtml 改为 SetupTeardownIncluder.render。这个名称好得多，因为它较好地描述了函数做的事。我也给每个私有方法取个同样具有描述性的名称，如 isTestable 或 includeSetupAndTeardownPages。好名称的价值怎么好评都不为过。记住沃德原则：“如果每个例程都让你感到深合己意，那就是整洁代码。”要遵循这一原则，大半工作都在于为只做一件事的小函数取个好名字。函数越短小、功能越集中，就越便于取个好名字。
 
 Don’t be afraid to make a name long. A long descriptive name is better than a short enigmatic name. A long descriptive name is better than a long descriptive comment. Use a naming convention that allows multiple words to be easily read in the function names, and then make use of those multiple words to give the function a name that says what it does.
 
